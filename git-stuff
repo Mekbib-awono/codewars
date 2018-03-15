@@ -26,6 +26,8 @@ git commit -m "some descriptive message about the changes you made"
 // from commit to push (to remote)
 git push
 
+To pull the changes from remote
+Git pull
 
 --------------------------------------------------------------------------
 BRANCHING
