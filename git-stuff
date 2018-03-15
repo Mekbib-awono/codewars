@@ -1,0 +1,48 @@
+// STAGING -> COMMIT -> PUSH -> REMOTE REPO
+// to see what changes you have made (list of files)
+git status
+
+--------------------------
+// if you want to see the changes (line by line)
+git diff
+
+git diff some.js
+
+--------------------------
+
+// To commit a file
+// first put it on staging by doing..
+// add all changes by .
+git add .
+
+// select the filename by specifying the filename
+git add somefile.js
+
+-------------------------
+// from staging we commit -> after commit, the code is ready to be pushed
+git commit -m "some descriptive message about the changes you made"
+
+-------------------------
+// from commit to push (to remote)
+git push
+
+
+--------------------------------------------------------------------------
+BRANCHING
+--------------------------------------------------------------------------
+// create a new branch
+git branch new-branch
+
+// go to / change to  a new branch
+git checkout new-branch
+
+
+// do your changes to your files
+
+git add some.js
+
+git commit -m "description"
+
+// finish with the new branch and go back to the master
+git checkout master
+
